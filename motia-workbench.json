@@ -1,0 +1,146 @@
+[
+  {
+    "id": "social-media-flow",
+    "config": {
+      "src\\social\\scheduled-posts-cron.step.ts": {
+        "x": -1166,
+        "y": 79
+      },
+      "src\\social\\publish-post-api.step.ts": {
+        "x": -1156,
+        "y": 281
+      },
+      "src\\social\\get-scheduled-posts-api.step.ts": {
+        "x": 396,
+        "y": 340
+      },
+      "src\\social\\get-post-status-api.step.ts": {
+        "x": -830,
+        "y": 419
+      },
+      "src\\social\\get-connected-accounts-api.step.ts": {
+        "x": -6,
+        "y": 410
+      },
+      "src\\social\\generate-post-api.step.ts": {
+        "x": -1190,
+        "y": 629
+      },
+      "src\\social\\connect-social-api.step.ts": {
+        "x": -421,
+        "y": 423
+      },
+      "src\\social\\process_post_publish_step.py": {
+        "x": 702,
+        "y": 153
+      },
+      "src\\social\\process_post_generation_step.py": {
+        "x": 607,
+        "y": 661
+      }
+    }
+  },
+  {
+    "id": "hello-world-flow",
+    "config": {
+      "src\\hello\\log-greeting.step.js": {
+        "x": 700,
+        "y": 44
+      },
+      "src\\hello\\hello-api.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "src\\hello\\process_greeting_step.py": {
+        "x": 350,
+        "y": 34
+      }
+    }
+  },
+  {
+    "id": "dashboard-flow",
+    "config": {
+      "src\\dashboard\\get-dashboard-api.step.ts": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "id": "system-flow",
+    "config": {
+      "src\\system\\health-check-api.step.ts": {
+        "x": 44,
+        "y": 0
+      }
+    }
+  },
+  {
+    "id": "job-discovery-flow",
+    "config": {
+      "src\\jobs\\search-jobs-api.step.ts": {
+        "x": 131,
+        "y": 34
+      },
+      "src\\jobs\\get-job-matches-api.step.ts": {
+        "x": -354,
+        "y": 442
+      },
+      "src\\jobs\\get-job-details-api.step.ts": {
+        "x": 461,
+        "y": 429
+      }
+    }
+  },
+  {
+    "id": "job-application-flow",
+    "config": {
+      "src\\applications\\update-application-status-api.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "src\\applications\\get-applications-api.step.ts": {
+        "x": 0,
+        "y": 224
+      },
+      "src\\applications\\assisted-apply-api.step.ts": {
+        "x": 24,
+        "y": 448
+      }
+    }
+  },
+  {
+    "id": "auth-flow",
+    "config": {
+      "src\\auth\\register-api.step.ts": {
+        "x": 39,
+        "y": 0
+      },
+      "src\\auth\\oauth-callback-api.step.ts": {
+        "x": 0,
+        "y": 204
+      },
+      "src\\auth\\login-api.step.ts": {
+        "x": 57,
+        "y": 408
+      }
+    }
+  },
+  {
+    "id": "profile-flow",
+    "config": {
+      "src\\profile\\upload-resume-api.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "src\\profile\\update-profile-api.step.ts": {
+        "x": 56,
+        "y": 204
+      },
+      "src\\profile\\get-profile-api.step.ts": {
+        "x": 12,
+        "y": 408
+      }
+    }
+  }
+]

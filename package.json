@@ -1,0 +1,55 @@
+{
+  "name": "ai-assist-job-apply",
+  "description": "AI-Assisted Job Application & Social Media Automation Platform",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "motia install",
+    "dev": "motia dev",
+    "start": "motia start",
+    "server": "tsx server.ts",
+    "generate-types": "motia generate-types",
+    "build": "motia build",
+    "clean": "rm -rf dist node_modules python_modules .motia .mermaid",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "motia",
+    "job-application",
+    "social-media",
+    "ai",
+    "automation"
+  ],
+  "dependencies": {
+    "@motiadev/adapter-bullmq-events": "^0.17.6-beta.187",
+    "@motiadev/core": "^0.17.6-beta.187",
+    "@motiadev/plugin-bullmq": "^0.17.6-beta.187",
+    "@motiadev/plugin-endpoint": "^0.17.6-beta.187",
+    "@motiadev/plugin-logs": "^0.17.6-beta.187",
+    "@motiadev/plugin-observability": "^0.17.6-beta.187",
+    "@motiadev/plugin-states": "^0.17.6-beta.187",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.2",
+    "motia": "^0.17.6-beta.187",
+    "uuid": "^9.0.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@motiadev/workbench": "^0.17.6-beta.187",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.25",
+    "@types/jest": "^29.5.11",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/react": "^19.1.1",
+    "@types/uuid": "^9.0.7",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.3"
+  }
+}

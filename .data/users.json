@@ -1,0 +1,32 @@
+{
+  "test@example.com": {
+    "id": "user_1765988442112_kri0ok",
+    "email": "test@example.com",
+    "name": "Test User",
+    "passwordHash": "cGFzc3dvcmQxMjM=",
+    "createdAt": "2025-12-17T16:20:42.112Z"
+  },
+  "you@example.com": {
+    "id": "user_1765989034318_civoth",
+    "email": "you@example.com",
+    "name": "jhone",
+    "passwordHash": "cGFzc3dvcmQx",
+    "createdAt": "2025-12-17T16:30:34.318Z"
+  },
+  "peter@gmail.com": {
+    "id": "user_1766048261679_3tnsoy",
+    "email": "peter@gmail.com",
+    "name": "peter",
+    "passwordHash": "cXdlcnF3ZXI=",
+    "createdAt": "2025-12-18T08:57:41.679Z",
+    "profile": null
+  },
+  "djgv@gmail.com": {
+    "id": "user_1766129863713_gz7018",
+    "email": "djgv@gmail.com",
+    "name": "jhon",
+    "passwordHash": "cXdlcnF3ZXI=",
+    "createdAt": "2025-12-19T07:37:43.713Z",
+    "profile": null
+  }
+}
