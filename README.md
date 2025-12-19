@@ -4,33 +4,28 @@ A comprehensive platform built with **Motia** that helps job seekers automate th
 
 ## 🚀 Features
 
-### Social Media Automation (Phase 3)
-- **AI-Powered Post Generation**: Generate engaging content for Twitter, Facebook, Instagram, and LinkedIn
-- **Multi-Platform Posting**: Publish to multiple platforms simultaneously
-- **Post Scheduling**: Schedule posts for optimal engagement times
-- **OAuth Integration**: Securely connect your social media accounts
 
-### Resume Parsing & Profile (Phase 4)
+### Resume Parsing & Profile (Phase 1)
 - **Resume Upload**: Support for PDF and DOCX formats
 - **AI-Powered Parsing**: Extract skills, experience, education automatically
 - **Profile Management**: Build and update your professional profile
 
-### Job Discovery (Phase 5)
+### Job Discovery (Phase 2)
 - **Automated Job Search**: Discover jobs from multiple sources
 - **Smart Filtering**: Filter by location, remote options, salary range
 - **Real-Time Updates**: Cron jobs for continuous job discovery
 
-### AI Job Matching (Phase 6)
+### AI Job Matching (Phase 3)
 - **Skill Matching**: Compare your skills with job requirements
 - **Match Scores**: Get compatibility scores for each job (0-100%)
 - **Recommendations**: AI-powered suggestions for better matches
 
-### Assisted Apply (Phase 7)
+### Assisted Apply (Phase 4)
 - **Cover Letter Generation**: AI-generated cover letters tailored to each job
 - **Form Pre-filling**: Auto-fill application forms with your profile data
 - **User Control**: You always click the final submit button
 
-### Job Tracking Dashboard (Phase 8)
+### Job Tracking Dashboard (Phase 5)
 - **Application Status**: Track Applied, Interview, Offer, Rejected
 - **Progress Analytics**: See your application statistics
 - **Notes & Reminders**: Keep track of important details
